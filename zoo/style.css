@@ -1,0 +1,63 @@
+@import './assets/fonts/fonts.css';
+@import './pages/main/css/header.css';
+@import './pages/main/css/bunner.css';
+@import './pages/main/css/backstage.css';
+@import './pages/main/css/pets.css';
+@import './pages/main/css/pick-feed.css';
+@import './pages/main/css/testimonials.css';
+@import './pages/main/css/footer.css';
+@import './pages/donate/css/donate.css';
+
+html {
+    behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    padding: 0px;
+}
+
+.center {
+    max-width: 1160px;
+    margin: 0px auto;
+}
+
+
+@media (min-width: 800px)and (max-width: 1160px) {
+    .center {
+        width: 95%;
+        margin: 0px auto;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 799px) {
+    .center {
+        width: 93%;
+    }
+
+}
+
+:root {
+    --btn-hover: #E47209;
+    --btn-active: #4B9200;
+    --btn-disabled: #767474;
+    --mail-active: #4B9200;
+    --mail-mistake: #D31414;
+    --another-default: #FFEE2E;
+    --another-active: #4B9200;
+    --another-mistake: #D31414;
+}
