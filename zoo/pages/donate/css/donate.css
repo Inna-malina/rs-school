@@ -1,0 +1,949 @@
+.bunner-little {
+    width: 100%;
+    height: 390px;
+    background: url('../../../assets/images/Giant_Panda.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -186px;
+
+}
+
+.donate {
+    background-image: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    opacity: 0.9;
+    padding: 40px 0px 180px 0px;
+}
+
+.donate__wrapper {}
+
+.official-donate__box {
+    margin: 0px 0px 30px 0px;
+}
+
+.official__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin: 0px 0px 10px 0px;
+}
+
+.official__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.info-donate__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #FE9013;
+    margin: 0px 0px 60px 0px;
+}
+
+.pick-donate__box {
+    padding: 40px 92px 62px 92px;
+    background: rgba(253, 253, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+}
+
+.pick-donate__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #FE9013;
+    margin: 0px 0px 20px 0px;
+}
+
+.pick-donate__description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333B41;
+    margin: 0px 0px 60px 0px;
+}
+
+.animal-donate__box {
+    display: flex;
+    gap: 72px;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0px 0px 48px 0px;
+}
+
+.animal-count__box {
+    position: relative;
+    width: 160px;
+
+}
+
+.animal-count__box::after {
+    position: absolute;
+    content: '\2716';
+    top: 25px;
+    right: -25px;
+}
+
+.animal-count {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0px 0px 10px 0px;
+}
+
+.animal-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #333B41;
+    margin: 0px 0px 55px 0px;
+}
+
+.animal-image__box {}
+
+/* -------progress-bar------- */
+
+.progress-bar__box {
+    margin: 0px 0px 50px 0px;
+}
+
+.progress-bar__text {
+    margin: 0px 0px 17px 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.progress-bar {
+    position: relative;
+    width: 100%;
+    height: 26px;
+    box-sizing: border-box;
+    background: #72828E;
+    padding: 0px 30px;
+    margin: 0px 0px 12px 0px;
+    border: 12px solid #404950;
+    border-left-width: 30px;
+    border-right-width: 30px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.progress-points__box {
+    width: 118%;
+    left: -84px;
+    top: -24px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.point {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    gap: 20px;
+    padding: 20px;
+}
+
+.point-elem {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background: #FFEE2E;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.active-elem {
+    opacity: 0;
+    position: absolute;
+    border: 2px solid #FE9013;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.one {
+    width: 22px;
+    height: 22px;
+    top: -8px;
+    left: -8px;
+
+}
+
+.two {
+    width: 40px;
+    height: 40px;
+    top: -17px;
+    left: -17px;
+
+}
+
+/* --------price__box-------- */
+
+
+.point:active .price-item {
+    color: #FE9013;
+}
+
+.point:active .price-dollar {
+    fill: #FE9013;
+}
+
+.point:active .active-elem {
+    opacity: 1;
+}
+
+.price__box {}
+
+.price-dollar {
+    fill: #333B41;
+}
+
+.price-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-item {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+}
+
+.active-dollar {
+    fill: #FE9013;
+}
+
+.price-dollar {
+    width: 10px;
+    height: 20px;
+}
+
+.active-item {
+    color: #FE9013;
+}
+
+.active-circle {
+    opacity: 1;
+}
+
+/* ---------anothe-amount__box---------- */
+.anothe-amount__box {
+    margin: 100px 0px 25px 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.another-amount {
+    display: block;
+    all: unset;
+    width: 268px;
+    height: 54px;
+    padding: 0px 0px 0px 10px;
+    border: 1px solid #929699;
+    border-radius: 2px;
+    outline: none;
+    background: none;
+}
+
+/*------ убираем стрелочки ------*/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+/* ----------------------------------------- */
+
+.another-amount::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #929699;
+}
+
+.another-dollar {
+    margin-right: -245px;
+    position: absolute;
+}
+
+/* ----------radio-buttons--------------- */
+.radio-buttons__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 76px;
+}
+
+.radio__box {
+    display: flex;
+    position: relative;
+}
+
+.input-radio {
+    width: 16px;
+    height: 16px;
+    outline: none;
+}
+
+.radio__box .input-radio[type=radio] {
+    display: none;
+}
+
+.radio__box .radio-text {
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+    user-select: none;
+}
+
+/* ------бордер кружка------- */
+.radio__box .radio-text:before {
+    content: "";
+    display: block;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: -30px;
+    border-radius: 50%;
+    border: 1px solid #FE9013;
+}
+
+/* Checked */
+.radio__box .input-radio[type=radio]:checked+.radio-text:after {
+    content: "";
+    display: block;
+    top: 4px;
+    left: -26px;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    border-radius: 50%;
+    background: #FE9013;
+}
+
+/* --------donate__button------ */
+
+.donate__button {
+    margin: 31px auto 31px auto;
+    display: block;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    border: none;
+}
+
+.donate__btn-helper {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #E47209;
+    border-radius: 25px;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.donate__button:hover .donate__btn-helper {
+    opacity: 1;
+}
+
+.donate__button :active {
+    background: #4B9200;
+
+}
+
+.donate-bottom__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+    text-align: center;
+}
+
+@media (min-width: 1000px) and (max-width: 1160px) {
+    .donate {
+        padding: 40px 0px 25px 0px;
+    }
+
+    .donate__wrapper {
+        padding: 0px 4px;
+        width: 968px;
+        box-sizing: border-box;
+        margin: 0px auto;
+    }
+
+    .official-donate__box {
+        margin: 0px 0px 43px 0px;
+    }
+
+    .bunner-little {
+        width: 100%;
+        height: 396px;
+        overflow: hidden;
+        background: url('../../../assets/images/Giant_Panda.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -13px;
+        background-position-x: -1px;
+    }
+
+    .official__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 125%;
+        color: #FFFFFF;
+        margin: 0px 0px 24px 0px;
+        width: 85%;
+    }
+
+    .official__text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 179%;
+        color: #FFFFFF;
+    }
+
+    .info-donate__title {
+        margin: 0px 0px 40px 0px;
+    }
+
+    /* ---------------------------------- */
+    .pick-donate__box {
+        padding: 25px 41px 52px 41px;
+        background: rgba(253, 253, 255, 0.52);
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
+    }
+
+    .pick-donate__title {
+        margin: 0px 0px 6px 0px;
+    }
+
+    .five-thousand {
+        display: none;
+    }
+
+    .animal-donate__box {
+        gap: 107px;
+        margin: 0px 0px 37px 0px;
+    }
+
+    .animal-image__box {
+        margin: 0px 53px 0px 0px;
+    }
+
+    .progress-bar__box {
+        margin: 0px 0px 50px 0px;
+        padding: 0px 21px 0px 21px;
+    }
+
+    .progress-bar {
+        width: 97%;
+        height: 26px;
+        padding: 0px 30px;
+        margin: 0px 0px 12px 0px;
+
+    }
+
+    .progress-points__box {
+        width: 118%;
+        left: -70px;
+        gap: 35px;
+        top: -24px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 999px) {
+    .donate {
+        padding: 29px 0px 40px 0px;
+    }
+
+    .donate__wrapper {
+        padding: 0px 0px;
+        width: 600px;
+        box-sizing: border-box;
+        margin: 0px auto;
+    }
+
+    .official-donate__box {
+        margin: 0px 0px 24px 0px;
+    }
+
+    .bunner-little {
+        width: 100%;
+        height: 369px;
+        overflow: hidden;
+        background: url('../../../assets/images/Giant_Panda.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -0px;
+        background-position-x: -1px;
+    }
+
+    .official__title {
+        font-size: 22px;
+        line-height: 130%;
+        margin: 0px 0px 22px 0px;
+        width: 87%;
+    }
+
+    .official__text {
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .info-donate__title {
+        margin: 0px 0px 30px 0px;
+    }
+
+    /* ---------------------------------- */
+    .pick-donate__box {
+        padding: 25px 0px 32px 0px;
+        background: rgba(253, 253, 255, 0.52);
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
+    }
+
+    .pick-donate__title {
+        margin: 0px 0px 29px 0px;
+    }
+
+    .pick-donate__description {
+        margin: 0px 0px 52px 0px;
+        text-align: center;
+    }
+
+    .five-thousand, .two-thousand, .one-thousand {
+        display: none;
+    }
+
+    .animal-donate__box {
+        gap: 90px;
+        margin: 0px 0px 37px 0px;
+    }
+
+    .progress-bar__text {
+        margin: 0px 0px 9px 0px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #000000;
+    }
+
+    .progress-bar__box {
+        margin: 0px 0px 50px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .progress-points__box {
+        width: 118%;
+        left: -47px;
+        gap: 45px;
+        top: -24px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .another-amount {
+        width: 179px;
+        height: 40px;
+        padding: 0px 0px 0px 0px;
+
+    }
+
+    .another-dollar {
+        margin-right: -146px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 799px) {
+    /* -----------бургер меню------------- */
+
+    .burger__nav {
+        display: block;
+        position: absolute;
+        top: 0px;
+        z-index: 1000;
+        width: 100%;
+        height: 100vh;
+        background: #00000080;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+    }
+
+    .burger-nav__disactive {
+        left: 200%;
+    }
+
+    .burger-nav__active {
+        left: 0px;
+    }
+
+    .burger__wrapper {
+        position: relative;
+        background: #FFFFFF;
+        padding: 10px 10px 40px 10px;
+    }
+
+    .burger-logo__box {
+        position: relative;
+        display: block;
+        width: 82px;
+        border: 1px solid #FFFFFF;
+        margin: 0px 63px 0px 0px;
+    }
+
+    .burger-menu-item a {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #333B41;
+    }
+
+    .burger-logo__box {
+        position: relative;
+        display: block;
+        width: 82px;
+        border: 1px solid rgba(254, 144, 19, 1);
+        margin: 0px 0px 30px 0px;
+    }
+
+    .burger-logo__box h1 {
+        position: relative;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 120%;
+        text-align: center;
+        color: rgba(254, 144, 19, 1);
+    }
+
+    .burger-logo__box .burger-logo {
+        display: block;
+        position: absolute;
+        bottom: 5px;
+        left: 14px;
+    }
+
+    .burger-list>*:not(:last-child) {
+        margin: 0px 0px 15px 0px;
+    }
+
+    .burger-close {
+        cursor: pointer;
+        color: #F9804B;
+        position: absolute;
+        font-size: 30px;
+        top: 10px;
+        right: 35px;
+        padding: 20px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 639px) {
+    .donate {
+        padding: 28px 0px 17px 0px;
+    }
+
+    .donate__wrapper {
+        padding: 0px 0px;
+        width: 300px;
+        box-sizing: border-box;
+        margin: 0px auto;
+    }
+
+    .official-donate__box {
+        margin: 0px 0px 31px 0px;
+    }
+
+    .bunner-little {
+        width: 100%;
+        height: 222px;
+        overflow: hidden;
+        background: url('../../../assets/images/Giant_Panda.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: center;
+        background-position-x: center;
+    }
+
+    .official__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 130%;
+        color: #FFFFFF;
+        margin: 0px 0px 28px 0px;
+        width: 85%;
+    }
+
+    .official__text {
+
+        font-size: 16px;
+        line-height: 136%;
+        color: #FFFFFF;
+    }
+
+    .info-donate__title {
+        font-size: 23px;
+        margin: 0px 0px 32px 0px;
+    }
+
+    /* ---------------------------------- */
+    .animal-image {
+        width: 157px;
+    }
+
+    .animal-count__box {
+        margin: 0px 0px 14px 0px;
+        position: relative;
+        width: 160px;
+    }
+
+
+    .animal-count {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 80%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+        margin: 0px 0px 6px 0px;
+    }
+
+    .animal-name {
+        font-size: 9px;
+        margin: 0px 0px 23px 0px;
+    }
+
+    .animal-donate__box {
+        gap: 50px;
+        margin: 0px 0px -8px 0px;
+    }
+
+    .pick-donate__box {
+        padding: 19px 0px 23px 0px;
+        background: rgba(253, 253, 255, 0.52);
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
+    }
+
+    .pick-donate__title {
+        font-size: 23px;
+        margin: 0px 0px 12px 0px;
+    }
+
+    .pick-donate__description {
+        font-size: 16px;
+        margin: 0px 0px 17px 0px;
+        text-align: center;
+    }
+
+    .five-thousand, .two-thousand, .one-thousand {
+        display: none;
+    }
+
+    .progress-bar {
+        height: 14px;
+        padding: 0px 30px;
+        margin: -7px 0px 4px 0px;
+        border: 7px solid #404950;
+        border-left-width: 12px;
+        border-right-width: 12px
+    }
+
+    .point {
+        gap: 14px;
+        padding: 13px;
+    }
+
+    .point-elem {
+
+        width: 4px;
+        height: 4px;
+
+    }
+
+    .one {
+        width: 10px;
+        height: 10px;
+        top: -5px;
+        left: -5px;
+    }
+
+    .two {
+        width: 20px;
+        height: 20px;
+        top: -10px;
+        left: -10px;
+    }
+
+    .price-dollar {
+        width: 5px;
+        height: 13px;
+    }
+
+
+
+    .progress-bar__text {
+        margin: 0px 0px 9px 0px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #000000;
+    }
+
+    .progress-bar__box {
+        margin: 11px 0px 50px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .progress-points__box {
+        width: 118%;
+        left: -22px;
+        gap: 14px;
+        top: -15px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .price-item {
+        font-size: 12px;
+    }
+
+    .anothe-amount__box {
+        margin: 51px 0px 25px 0px;
+    }
+
+    .another-amount {
+
+        width: 169px;
+        height: 37px;
+        padding: 0px 0px 0px 10px;
+
+    }
+
+    .another-dollar {
+        margin-right: -146px;
+        position: absolute;
+    }
+
+    .donate__button {
+        margin: 28px auto 33px auto;
+        width: 298px;
+        height: 54px;
+    }
+
+    .donate-bottom__text {
+
+        font-size: 15px;
+
+    }
+}
